@@ -1,0 +1,148 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #686767;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #dfdfdf;
+  overflow: hidden;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+section {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+input[type="button"] {
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+/* styles.css */
+
+/* Menambahkan gaya untuk gambar */
+.image-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-image,
+.right-image {
+  width: 150px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+  height: 150px;
+  object-fit: cover; /* Menjaga rasio aspek gambar */
+  border-radius: 8px; /* Memberikan sudut bulat pada gambar */
+  margin-top: 20px; /* Sesuaikan jarak dengan teks di atasnya */
+}
+/* styles.css */
+
+/* Menambahkan gaya untuk tulisan di tengah antara gambar */
+.centered-text {
+  text-align: center;
+  font-size: 50px; /* Sesuaikan ukuran tulisan sesuai kebutuhan */
+  margin-top: 10px; /* Sesuaikan jarak dengan gambar di atasnya */
+}
+section {
+  background: linear-gradient(45deg, #f6b0b0, #dfdfdf, #333, #f6b0b0);
+}
+/* ... Kode CSS lainnya ... */
+
+/* Menambahkan gaya untuk ikon/logo YouTube, Instagram, dan WhatsApp */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  font-size: 32px; /* Ukuran ikon diperbesar */
+  color: #333; /* Sesuaikan warna ikon sesuai kebutuhan */
+  text-decoration: none;
+}
+
+/* ... Kode CSS lainnya ... */
+/* styles.css */
+
+/* ... Kode lainnya ... */
+
+/* styles.css */
+
+/* ... Kode lainnya ... */
+
+/* Menambahkan gaya untuk gambar di dalam kolom materi pembelajaran */
+.content-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-container img {
+  width: 200px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+  height: auto;
+  border-radius: 8px; /* Memberikan sudut bulat pada gambar */
+}
+
+/* ... Kode lainnya ... */
+
+/* ... Kode lainnya ... */
